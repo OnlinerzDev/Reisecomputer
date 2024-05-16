@@ -1,0 +1,9 @@
+name: Reisecomputer
+version: '${project.version}'
+main: at.onlinerz.reisecomputer.Reisecomputer
+api-version: 1.20
+depend:
+  - Vault
+commands:
+  planeten:
+    description: Open the Planet GUI
